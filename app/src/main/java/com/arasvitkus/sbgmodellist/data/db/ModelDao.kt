@@ -1,7 +1,8 @@
-package com.arasvitkus.sbgmodellist
+package com.arasvitkus.sbgmodellist.data.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
+import com.arasvitkus.sbgmodellist.data.db.entities.ModelItem
 
 @Dao
 interface ModelDao {

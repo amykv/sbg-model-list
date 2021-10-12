@@ -1,4 +1,4 @@
-package com.arasvitkus.sbgmodellist
+package com.arasvitkus.sbgmodellist.data.db.entities
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
@@ -12,7 +12,7 @@ data class ModelItem(
     @ColumnInfo(name = "model_amount")
     var amount: Int) {
 
-    //Rooms will auto genearte ID's instead of manually
+    //Rooms will auto generate ID's instead of manually
     @PrimaryKey(autoGenerate = true)
     var id: Int? = null
 }
