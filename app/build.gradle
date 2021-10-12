@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-android-extensions'
 
     //These two plugins cause Gradle build problems. Not sure why.
     //apply plugin: 'kotlin-android-extensions'
@@ -32,6 +33,11 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+
+    //Had to add this manually
+    buildFeatures {
+        viewBinding true
     }
 }
 
