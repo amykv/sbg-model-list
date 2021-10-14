@@ -8,7 +8,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SBGModelList">
+        android:theme="@style/Theme.SBGModelList"
+        android:name=".ModelApplication">
         <activity
             android:name=".ui.modellist.MainActivity"
             android:exported="true">
