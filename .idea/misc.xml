@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.21510416666666668" />
+        <entry key="app/src/main/res/layout/dialog_add_model_item.xml" value="0.34193840579710144" />
         <entry key="app/src/main/res/layout/model_item.xml" value="0.2296875" />
       </map>
     </option>
