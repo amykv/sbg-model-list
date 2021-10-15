@@ -3,8 +3,7 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-android-extensions'
 
-    //These two plugins cause Gradle build problems. Not sure why.
-    //apply plugin: 'kotlin-android-extensions'
+    //Had to move this outside the plugin block.
     //apply plugin: "kotlin-kapt"
 }
 
