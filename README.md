@@ -7,3 +7,4 @@ Uses MVVM architecture. Allows user to manually enter in the name of the model a
 
 SCREENSHOT:
 
+![One](https://raw.githubusercontent.com/amvitkus/sbg-model-list/master/sbgml1.png)
